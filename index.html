@@ -1,26 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Peptide Ops</title>
     <style>
         body {
             margin: 0;
+            padding: 0;
             background-color: #0a0c0f;
+            color: #d1d1d1;
+            font-family: Arial, sans-serif;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             min-height: 100vh;
-            color: #d1d1d1;
-            font-family: sans-serif;
         }
-        .logo-container { margin-bottom: 10px; }
+
+        .logo-container {
+            margin-bottom: 10px;
+        }
+
         .logo-container img {
             max-width: 600px;
             width: 90%;
             filter: drop-shadow(0 0 15px rgba(52, 152, 219, 0.5));
         }
+
         .content-box {
             max-width: 600px;
             width: 90%;
@@ -30,7 +36,10 @@
             text-align: center;
             border-radius: 4px;
         }
-        h1 { color: #ffffff; text-transform: uppercase; }
+
+        h1 { color: #ffffff; text-transform: uppercase; letter-spacing: 2px; margin-top: 0; }
+        p { line-height: 1.6; margin-bottom: 20px; }
+
         .cta-button {
             display: inline-block;
             background: #3498db;
@@ -40,6 +49,13 @@
             text-transform: uppercase;
             font-weight: bold;
             margin-top: 20px;
+        }
+
+        .footer { 
+            margin-top: 40px; 
+            font-size: 0.7rem; 
+            color: #5a5a5a; 
+            text-align: center;
         }
     </style>
 </head>
@@ -51,8 +67,16 @@
 
     <div class="content-box">
         <h1>Peptide Ops</h1>
-        <p>We are not a massive corporation; we are a family with deep connections who believe in performance and quality.</p>
-        <a href="mailto:PeptideOpsUS@gmail.com" class="cta-button">Request a Catalog</a>
+        <p>We are not a massive corporation; we are a family with deep connections who believe in performance and quality. We provide high-grade research compounds at a fair price because we believe in the results as much as you do.</p>
+        
+        <p>We personally oversee our supply chain and use what we sell. Our mission is to support our local community and serious biohackers in achieving their protocols with transparency and trust.</p>
+
+        <a href="mailto:PeptideOpsUS@gmail.com?subject=Request%20for%20Product%20Catalog" class="cta-button">Request a Catalog</a>
+    </div>
+
+    <div class="footer">
+        <p>DISCLAIMER: Products are for research purposes only. Not for human consumption.</p>
+        &copy; 2026 Peptide Ops. All Rights Reserved.
     </div>
 
 </body>
