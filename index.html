@@ -1,34 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Peptide Ops</title>
     <style>
         body {
             margin: 0;
-            padding: 0;
             background-color: #0a0c0f;
-            color: #d1d1d1;
-            font-family: sans-serif;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             min-height: 100vh;
+            color: #d1d1d1;
+            font-family: sans-serif;
         }
-
-        .logo-container {
-            margin-bottom: 10px; /* Reduced to bring logo closer to box */
-        }
-
+        .logo-container { margin-bottom: 10px; }
         .logo-container img {
-            max-width: 600px; /* Increased for larger logo */
+            max-width: 600px;
             width: 90%;
             filter: drop-shadow(0 0 15px rgba(52, 152, 219, 0.5));
-            animation: pulse 3s infinite ease-in-out;
         }
-
-        @keyframes pulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.05); }
-            100% { transform: scale(1); }
-        }
-
         .content-box {
             max-width: 600px;
             width: 90%;
@@ -38,10 +30,7 @@
             text-align: center;
             border-radius: 4px;
         }
-
-        h1 { color: #ffffff; text-transform: uppercase; letter-spacing: 2px; margin-top: 0; }
-        p { line-height: 1.6; margin-bottom: 20px; }
-
+        h1 { color: #ffffff; text-transform: uppercase; }
         .cta-button {
             display: inline-block;
             background: #3498db;
@@ -52,6 +41,19 @@
             font-weight: bold;
             margin-top: 20px;
         }
-
-        .footer { margin-top: 40px; font-size: 0.7rem; color: #5a5a5a; }
     </style>
+</head>
+<body>
+
+    <div class="logo-container">
+        <img src="https://assets.bigcartel.com/theme_images/161389299/10456.png?auto=format&fit=max&h=600" alt="Peptide Ops">
+    </div>
+
+    <div class="content-box">
+        <h1>Peptide Ops</h1>
+        <p>We are not a massive corporation; we are a family with deep connections who believe in performance and quality.</p>
+        <a href="mailto:PeptideOpsUS@gmail.com" class="cta-button">Request a Catalog</a>
+    </div>
+
+</body>
+</html>
